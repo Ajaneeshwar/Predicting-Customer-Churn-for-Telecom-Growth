@@ -3,7 +3,7 @@
 
 ## Project Overview
 
-Customer churn is a critical issue for telecom companies, impacting revenue directly. This project tackles this problem by developing a predictive model to forecast customer attrition, aiding telecom operators in implementing effective retention strategies. 
+Customer churn is a critical issue for telecom companies, impacting revenue directly. This project tackles this problem by developing a predictive model to forecast customer attrition, aiding telecom operators in implementing effective retention strategies.
 
 ## Key Features
 
@@ -14,20 +14,26 @@ Customer churn is a critical issue for telecom companies, impacting revenue dire
 
 ## Prerequisites
 
-1. **Python Installation**:
-    - Ensure you have Python 3.x installed. You can download it from [python.org](https://www.python.org/downloads/).
+Before running the project, ensure you have the following installed:
 
-2. **Required Python Packages**:
-    - Install the necessary packages using `pip`. Open your terminal or command prompt and run:
-    ```sh
-    pip install numpy pandas scikit-learn xgboost matplotlib jupyter
-    ```
+1. **Python 3.x**: Install from [Python's official website](https://www.python.org/downloads/).
 
-3. **Jupyter Notebook**:
-    - Install Jupyter Notebook if you haven’t already:
+2. **Jupyter Notebook**: Install using pip:
     ```sh
     pip install notebook
     ```
+
+3. **Required Python Packages**: Install using pip from the `requirements.txt` file:
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+    The `requirements.txt` file includes packages such as:
+    - `pandas`
+    - `numpy`
+    - `scikit-learn`
+    - `xgboost`
+    - `matplotlib`
 
 ## Installation
 
@@ -38,14 +44,15 @@ Customer churn is a critical issue for telecom companies, impacting revenue dire
     ```
 
 2. **Install Dependencies**:
-    Install the required Python packages as listed in the prerequisites.
+    Make sure you have Python and Jupyter Notebook set up, then install the required packages:
+    ```sh
+    pip install -r requirements.txt
+    ```
 
-3. **Open Jupyter Notebook**:
+3. **Open and Run the Jupyter Notebook**:
     ```sh
     jupyter notebook
     ```
-
-4. **Run the Notebook**:
     Open the provided Jupyter notebook file in your browser and execute the cells to train and evaluate the churn prediction model.
 
 ## License
@@ -56,3 +63,7 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 
 - **Machine Learning Libraries**: [scikit-learn](https://scikit-learn.org/), [XGBoost](https://xgboost.readthedocs.io/)
 - **Data Source**: Dataset provided by SyriaTel
+
+## Queries
+
+For any questions or queries, please contact me via email: [ajaneeshwar05@gmail.com](mailto:ajaneeshwar05@gmail.com) or connect with me on [LinkedIn](http://www.linkedin.com/in/ajaneeshwar-s-378818250).
